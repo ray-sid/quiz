@@ -32,7 +32,7 @@ class category(score):
                 score.sc = score.sc + 1
             elif(ans.lower() == "stop"):
                 score.s()
-                mode().m()
+                mode().m()     
             else:
                 print("incorrect") 
                 print("correct answer: ",linesa[i])
@@ -62,6 +62,7 @@ class category(score):
                 print("correct answer: ",linesa[i])
         
         score.s()
+        category.cont()
 
     def q3():
         print("type \"stop\" to stop the current game")
@@ -85,6 +86,7 @@ class category(score):
                 print("correct answer: ",linesa[i])
         
         score.s()
+        category.cont()
 
     def q4():
         print("type \"stop\" to stop the current game")
@@ -131,6 +133,7 @@ class category(score):
                 print("correct answer: ",linesa[i])
         
         score.s()
+        category.cont()
 
     def q6():
         print("type \"stop\" to stop the current game")
@@ -154,6 +157,7 @@ class category(score):
                 print("correct answer: ",linesa[i])
         
         score.s()
+        category.cont()
 
     def q11():
         print("type \"stop\" to stop the current game")
@@ -177,6 +181,7 @@ class category(score):
                 print("correct answer: ",linesa[i])
         
         score.s()
+        category.cont()
 
     
     def q22():
@@ -201,6 +206,7 @@ class category(score):
                 print("correct answer: ",linesa[i])
         
         score.s()
+        category.cont()
 
 
     def q33():
@@ -225,6 +231,7 @@ class category(score):
                 print("correct answer: ",linesa[i])
         
         score.s()
+        category.cont()
 
 
     def q44():
@@ -249,6 +256,7 @@ class category(score):
                 print("correct answer: ",linesa[i]) 
         
         score.s()
+        category.cont()
 
     def q55():
         print("type \"stop\" to stop the current game")
@@ -272,6 +280,7 @@ class category(score):
                 print("correct answer: ",linesa[i]) 
         
         score.s()
+        category.cont()
 
     def q66():
         print("type \"stop\" to stop the current game")
@@ -295,6 +304,7 @@ class category(score):
                 print("correct answer: ",linesa[i]) 
         
         score.s()
+        category.cont()
         
 
     #to choose a category 
