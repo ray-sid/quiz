@@ -24,6 +24,7 @@ class category(score):
                 mode().m()  
             else:
                 print("incorrect") 
+                print("correct answer: ",linesa[i])
         
         score.s()
 
@@ -45,6 +46,7 @@ class category(score):
                 mode().m()  
             else:
                 print("incorrect") 
+                print("correct answer: ",linesa[i])
         
         score.s()
 
@@ -66,6 +68,7 @@ class category(score):
                 mode().m()  
             else:
                 print("incorrect") 
+                print("correct answer: ",linesa[i])
         
         score.s()
 
@@ -87,6 +90,7 @@ class category(score):
                 mode().m()  
             else:
                 print("incorrect") 
+                print("correct answer: ",linesa[i])
         
         score.s()
 
@@ -108,6 +112,7 @@ class category(score):
                 mode().m()  
             else:
                 print("incorrect") 
+                print("correct answer: ",linesa[i])
         
         score.s()
 
@@ -129,6 +134,7 @@ class category(score):
                 mode().m()  
             else:
                 print("incorrect") 
+                print("correct answer: ",linesa[i])
         
         score.s()
 
@@ -150,6 +156,7 @@ class category(score):
                 mode().m()  
             else:
                 print("incorrect") 
+                print("correct answer: ",linesa[i])
         
         score.s()
 
@@ -172,6 +179,7 @@ class category(score):
                 mode().m()  
             else:
                 print("incorrect") 
+                print("correct answer: ",linesa[i])
         
         score.s()
 
@@ -194,6 +202,7 @@ class category(score):
                 mode().m()  
             else:
                 print("incorrect") 
+                print("correct answer: ",linesa[i])
         
         score.s()
 
@@ -215,7 +224,8 @@ class category(score):
                 score.s()
                 mode().m()  
             else:
-                print("incorrect") 
+                print("incorrect")
+                print("correct answer: ",linesa[i]) 
         
         score.s()
 
@@ -236,7 +246,8 @@ class category(score):
                 score.s()
                 mode().m()  
             else:
-                print("incorrect") 
+                print("incorrect")
+                print("correct answer: ",linesa[i]) 
         
         score.s()
 
@@ -257,7 +268,8 @@ class category(score):
                 score.s()
                 mode().m()  
             else:
-                print("incorrect") 
+                print("incorrect")
+                print("correct answer: ",linesa[i]) 
         
         score.s()
         
@@ -303,7 +315,7 @@ class category(score):
 
 class mode(category):
     def m(self):
-        c = input("Choose a mode: \n\n1.Objective \n2.Objective :")
+        c = input("Choose a mode: \n1.Objective \n2.Subjective :")
         if(c == "1"):
             category.choose1()
         elif(c == "2"):
