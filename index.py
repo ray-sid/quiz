@@ -2,7 +2,7 @@ class score:
     sc = 0
     #to store score info
     def s():
-        print("YOUR TOTAL SCORE IS: ",score.sc)
+        print("YOUR TOTAL SCORE IS: ",score.sc,"\n")
 
 
 class category(score):
@@ -48,9 +48,223 @@ class category(score):
         
         score.s()
 
+    def q3():
+        f = open("q3.txt",'r')
+        fa = open("a3.txt",'r')
+        lines = f.readlines()
+        linesa = fa.readlines()
+        lines = [line.rstrip() for line in lines]
+        linesa = [line.rstrip() for line in linesa]
+        for i in range(len(lines)):
+            print(lines[i])
+            ans = input()
+            if(ans.lower() == linesa[i]):
+                print("correct!!")
+                score.sc = score.sc + 1
+            elif(ans.lower() == "stop"):
+                score.s()
+                mode().m()  
+            else:
+                print("incorrect") 
+        
+        score.s()
+
+    def q4():
+        f = open("q4.txt",'r')
+        fa = open("a4.txt",'r')
+        lines = f.readlines()
+        linesa = fa.readlines()
+        lines = [line.rstrip() for line in lines]
+        linesa = [line.rstrip() for line in linesa]
+        for i in range(len(lines)):
+            print(lines[i])
+            ans = input()
+            if(ans.lower() == linesa[i]):
+                print("correct!!")
+                score.sc = score.sc + 1
+            elif(ans.lower() == "stop"):
+                score.s()
+                mode().m()  
+            else:
+                print("incorrect") 
+        
+        score.s()
+
+    def q5():
+        f = open("q5.txt",'r')
+        fa = open("a5.txt",'r')
+        lines = f.readlines()
+        linesa = fa.readlines()
+        lines = [line.rstrip() for line in lines]
+        linesa = [line.rstrip() for line in linesa]
+        for i in range(len(lines)):
+            print(lines[i])
+            ans = input()
+            if(ans.lower() == linesa[i]):
+                print("correct!!")
+                score.sc = score.sc + 1
+            elif(ans.lower() == "stop"):
+                score.s()
+                mode().m()  
+            else:
+                print("incorrect") 
+        
+        score.s()
+
+    def q6():
+        f = open("q6.txt",'r')
+        fa = open("a6.txt",'r')
+        lines = f.readlines()
+        linesa = fa.readlines()
+        lines = [line.rstrip() for line in lines]
+        linesa = [line.rstrip() for line in linesa]
+        for i in range(len(lines)):
+            print(lines[i])
+            ans = input()
+            if(ans.lower() == linesa[i]):
+                print("correct!!")
+                score.sc = score.sc + 1
+            elif(ans.lower() == "stop"):
+                score.s()
+                mode().m()  
+            else:
+                print("incorrect") 
+        
+        score.s()
+
+    def q11():
+        f = open("q11.txt",'r')
+        fa = open("a11.txt",'r')
+        lines = f.readlines()
+        linesa = fa.readlines()
+        lines = [line.rstrip() for line in lines]
+        linesa = [line.rstrip() for line in linesa]
+        for i in range(len(lines)):
+            print(lines[i])
+            ans = input()
+            if(ans.lower() == linesa[i]):
+                print("correct!!")
+                score.sc = score.sc + 1
+            elif(ans.lower() == "stop"):
+                score.s()
+                mode().m()  
+            else:
+                print("incorrect") 
+        
+        score.s()
+
+    
+    def q22():
+        f = open("q22.txt",'r')
+        fa = open("a22.txt",'r')
+        lines = f.readlines()
+        linesa = fa.readlines()
+        lines = [line.rstrip() for line in lines]
+        linesa = [line.rstrip() for line in linesa]
+        for i in range(len(lines)):
+            print(lines[i])
+            ans = input()
+            if(ans.lower() == linesa[i]):
+                print("correct!!")
+                score.sc = score.sc + 1
+            elif(ans.lower() == "stop"):
+                score.s()
+                mode().m()  
+            else:
+                print("incorrect") 
+        
+        score.s()
+
+
+    def q33():
+        f = open("q33.txt",'r')
+        fa = open("a33.txt",'r')
+        lines = f.readlines()
+        linesa = fa.readlines()
+        lines = [line.rstrip() for line in lines]
+        linesa = [line.rstrip() for line in linesa]
+        for i in range(len(lines)):
+            print(lines[i])
+            ans = input()
+            if(ans.lower() == linesa[i]):
+                print("correct!!")
+                score.sc = score.sc + 1
+            elif(ans.lower() == "stop"):
+                score.s()
+                mode().m()  
+            else:
+                print("incorrect") 
+        
+        score.s()
+
+
+    def q44():
+        f = open("q44.txt",'r')
+        fa = open("a44.txt",'r')
+        lines = f.readlines()
+        linesa = fa.readlines()
+        lines = [line.rstrip() for line in lines]
+        linesa = [line.rstrip() for line in linesa]
+        for i in range(len(lines)):
+            print(lines[i])
+            ans = input()
+            if(ans.lower() == linesa[i]):
+                print("correct!!")
+                score.sc = score.sc + 1
+            elif(ans.lower() == "stop"):
+                score.s()
+                mode().m()  
+            else:
+                print("incorrect") 
+        
+        score.s()
+
+    def q55():
+        f = open("q55.txt",'r')
+        fa = open("a55.txt",'r')
+        lines = f.readlines()
+        linesa = fa.readlines()
+        lines = [line.rstrip() for line in lines]
+        linesa = [line.rstrip() for line in linesa]
+        for i in range(len(lines)):
+            print(lines[i])
+            ans = input()
+            if(ans.lower() == linesa[i]):
+                print("correct!!")
+                score.sc = score.sc + 1
+            elif(ans.lower() == "stop"):
+                score.s()
+                mode().m()  
+            else:
+                print("incorrect") 
+        
+        score.s()
+
+    def q66():
+        f = open("q66.txt",'r')
+        fa = open("a66.txt",'r')
+        lines = f.readlines()
+        linesa = fa.readlines()
+        lines = [line.rstrip() for line in lines]
+        linesa = [line.rstrip() for line in linesa]
+        for i in range(len(lines)):
+            print(lines[i])
+            ans = input()
+            if(ans.lower() == linesa[i]):
+                print("correct!!")
+                score.sc = score.sc + 1
+            elif(ans.lower() == "stop"):
+                score.s()
+                mode().m()  
+            else:
+                print("incorrect") 
+        
+        score.s()
+        
+
     #to choose a category 
     def choose1(): #objective
-        cat = input("choose a category\n1.science\n2.sports\n3.music\n4.literature\n5.technology\n6.conundrums\ntype \"quit\" to quit the game")
+        cat = input("\nChoose a category:\n\n1.science\n2.sports\n3.music\n4.literature\n5.technology\n6.conundrums\ntype \"quit\" to quit the game :")
         if(cat == "1"):
             category.q1()
         elif(cat == "2"):
@@ -69,7 +283,7 @@ class category(score):
             print("choose a valid category")
 
     def choose2(): #subjective
-        cat = input("choose a category\n 1.science/n2.sports\n3.music\n4.literature\n5.technology\n6.conundrums")
+        cat = input("\nChoose a category: \n1.science\n2.sports\n3.music\n4.literature\n5.technology\n6.conundrums :")
         if(cat == "1"):
             category.q11()
         elif(cat == "2"):
@@ -85,11 +299,11 @@ class category(score):
         elif(cat.lower() == "quit"):
             exit
         else:
-            print("choose a valid category")
+            print("Choose a valid category ")
 
 class mode(category):
     def m(self):
-        c = input("choose a mode: 1.objective 2. subjective")
+        c = input("Choose a mode: \n\n1.Objective \n2.Objective :")
         if(c == "1"):
             category.choose1()
         elif(c == "2"):
@@ -109,5 +323,5 @@ class mode(category):
 
 
 obj = mode()
-print("WELCOME TO QUIZ GAME")
+print("\n ~~~~ WELCOME TO QUIZ GAME  ~~~~ \n")
 obj.m()
