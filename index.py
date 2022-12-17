@@ -7,6 +7,7 @@ class score:
 
 class category(score):
     def q1():
+        print("type \"stop\" to stop the current game")
         f = open("q1.txt",'r')
         fa = open("a1.txt",'r')
         lines = f.readlines()
@@ -29,6 +30,7 @@ class category(score):
         score.s()
 
     def q2():
+        print("type \"stop\" to stop the current game")
         f = open("q2.txt",'r')
         fa = open("a2.txt",'r')
         lines = f.readlines()
@@ -51,6 +53,7 @@ class category(score):
         score.s()
 
     def q3():
+        print("type \"stop\" to stop the current game")
         f = open("q3.txt",'r')
         fa = open("a3.txt",'r')
         lines = f.readlines()
@@ -73,6 +76,7 @@ class category(score):
         score.s()
 
     def q4():
+        print("type \"stop\" to stop the current game")
         f = open("q4.txt",'r')
         fa = open("a4.txt",'r')
         lines = f.readlines()
@@ -95,6 +99,7 @@ class category(score):
         score.s()
 
     def q5():
+        print("type \"stop\" to stop the current game")
         f = open("q5.txt",'r')
         fa = open("a5.txt",'r')
         lines = f.readlines()
@@ -117,6 +122,7 @@ class category(score):
         score.s()
 
     def q6():
+        print("type \"stop\" to stop the current game")
         f = open("q6.txt",'r')
         fa = open("a6.txt",'r')
         lines = f.readlines()
@@ -139,6 +145,7 @@ class category(score):
         score.s()
 
     def q11():
+        print("type \"stop\" to stop the current game")
         f = open("q11.txt",'r')
         fa = open("a11.txt",'r')
         lines = f.readlines()
@@ -162,6 +169,7 @@ class category(score):
 
     
     def q22():
+        print("type \"stop\" to stop the current game")
         f = open("q22.txt",'r')
         fa = open("a22.txt",'r')
         lines = f.readlines()
@@ -185,6 +193,7 @@ class category(score):
 
 
     def q33():
+        print("type \"stop\" to stop the current game")
         f = open("q33.txt",'r')
         fa = open("a33.txt",'r')
         lines = f.readlines()
@@ -208,6 +217,7 @@ class category(score):
 
 
     def q44():
+        print("type \"stop\" to stop the current game")
         f = open("q44.txt",'r')
         fa = open("a44.txt",'r')
         lines = f.readlines()
@@ -230,6 +240,7 @@ class category(score):
         score.s()
 
     def q55():
+        print("type \"stop\" to stop the current game")
         f = open("q55.txt",'r')
         fa = open("a55.txt",'r')
         lines = f.readlines()
@@ -252,6 +263,7 @@ class category(score):
         score.s()
 
     def q66():
+        print("type \"stop\" to stop the current game")
         f = open("q66.txt",'r')
         fa = open("a66.txt",'r')
         lines = f.readlines()
