@@ -1,4 +1,3 @@
-.
 electron
 deoxyribonucleic acid
 206
