@@ -6,6 +6,16 @@ class score:
 
 
 class category(score):
+    def cont():
+        rep = input("do you want to continue?? (y/n)")
+        if(rep == 'y'):
+            mode().m()
+        elif(rep == 'n'): 
+            exit
+        else:
+            print("enter (y or n)")
+            category.cont()
+        
     def q1():
         print("type \"stop\" to stop the current game")
         f = open("q1.txt",'r')
@@ -22,12 +32,13 @@ class category(score):
                 score.sc = score.sc + 1
             elif(ans.lower() == "stop"):
                 score.s()
-                mode().m()  
+                mode().m()
             else:
                 print("incorrect") 
                 print("correct answer: ",linesa[i])
-        
         score.s()
+        category.cont()
+        
 
     def q2():
         print("type \"stop\" to stop the current game")
@@ -335,16 +346,6 @@ class mode(category):
         else:
             print("wrong choice 1 for objective 2 for subjective")
             mode().m()
-    '''def cont():
-        rep = input("do you want to continue?? (y/n")
-        if(rep == 'y'):
-            mode.m()
-        elif(rep == 'n'): 
-            exit
-        else:
-            print("enter (y or n)")
-            mode.cont()'''
-
 
 obj = mode()
 print("\n ~~~~ WELCOME TO QUIZ GAME  ~~~~ \n")
