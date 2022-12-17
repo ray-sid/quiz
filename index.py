@@ -307,7 +307,7 @@ class category(score):
             print("choose a valid category")
 
     def choose2(): #subjective
-        cat = input("\nChoose a category: \n1.science\n2.sports\n3.music\n4.literature\n5.technology\n6.conundrums :")
+        cat = input("\nChoose a category: \n1.science\n2.sports\n3.music\n4.literature\n5.technology\n6.conundrums\ntype \"quit\" to quit the game :")
         if(cat == "1"):
             category.q11()
         elif(cat == "2"):
