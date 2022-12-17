@@ -69,7 +69,7 @@ class category(score):
             print("choose a valid category")
 
     def choose2(): #subjective
-        cat = int(input("choose a category\n 1.science/n2.sports\n3.music\n4.literature\n5.technology\n6.conundrums"))
+        cat = input("choose a category\n 1.science/n2.sports\n3.music\n4.literature\n5.technology\n6.conundrums")
         if(cat == "1"):
             category.q11()
         elif(cat == "2"):
