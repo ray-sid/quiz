@@ -55,6 +55,14 @@ class category(score):
             category.q1()
         elif(cat == "2"):
             category.q2()
+        elif(cat == "3"):
+            category.q3()
+        elif(cat == "4"):
+            category.q2()
+        elif(cat == "5"):
+            category.q2()
+        elif(cat == "6"):
+            category.q2()
         elif(cat.lower() == "quit"):
             exit
         else:
@@ -62,7 +70,22 @@ class category(score):
 
     def choose2(): #subjective
         cat = int(input("choose a category\n 1.science/n2.sports\n3.music\n4.literature\n5.technology\n6.conundrums"))
-        #ques2()
+        if(cat == "1"):
+            category.q11()
+        elif(cat == "2"):
+            category.q22()
+        elif(cat == "3"):
+            category.q33()
+        elif(cat == "4"):
+            category.q44()
+        elif(cat == "5"):
+            category.q55()
+        elif(cat == "6"):
+            category.q66()
+        elif(cat.lower() == "quit"):
+            exit
+        else:
+            print("choose a valid category")
 
 class mode(category):
     def m(self):
